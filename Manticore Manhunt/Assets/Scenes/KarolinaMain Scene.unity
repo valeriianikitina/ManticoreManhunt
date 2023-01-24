@@ -1962,7 +1962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516476041}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 8.466009, z: 0}
+  m_LocalPosition: {x: -0.5, y: 8.466009, z: -0.49}
   m_LocalScale: {x: 0.04, y: 0.039999984, z: 0.039999984}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2001,7 +2001,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 20.48, y: 20.48}
-    newSize: {x: 20.48, y: 20.48}
+    newSize: {x: 0.9990244, y: 0.9990244}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -2050,15 +2050,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 979d724aa946f7447a283b9910cbf767, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 1098b676d6d42fc4380845d4c636be6e, type: 3}
+  m_Color: {r: 0.15884651, g: 0.51689005, b: 0.8679245, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 20.48, y: 20.48}
+  m_Size: {x: 0.9990244, y: 0.9990244}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &536555428
@@ -5004,27 +5004,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1779125409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cb4d450248f69a438cb450631a8c685, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a68d03ea6c93cf4291c90f0faba998b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tilemap: {fileID: 2078144258}
-  coverTile: {fileID: 11400000, guid: aedccb55e4360c949964ea1f9648fdb8, type: 2}
+  coverTile: {fileID: 11400000, guid: 2e3ee9924477e41419a24243b097876c, type: 2}
   specialAbilityUses: 3
   gameOver: 0
-  highlightColor:
-    r: 0.015686274
-    g: 0.75665885
-    b: 1
-    a: 1
-  defaultColor:
-    r: 1
-    g: 0.44716978
-    b: 0.44716978
-    a: 1
-  currentTilePos: {x: 0, y: 0, z: 0}
-  selectedTilePos: {x: 0, y: 0, z: 0}
-  Dogcounter1: 0
-  Dogcounter2: 0
+  highlightColor: {r: 1, g: 0.10978566, b: 0.015686274, a: 1}
+  defaultColor: {r: 0.17611244, g: 0.81617314, b: 0.9622642, a: 1}
 --- !u!4 &1779125411
 Transform:
   m_ObjectHideFlags: 0
