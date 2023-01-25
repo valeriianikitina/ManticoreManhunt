@@ -4,7 +4,7 @@ using UnityEngine.Tilemaps;
 public class overall3 : MonoBehaviour
 {
     public Tilemap tilemap; // reference to the tilemap
-    public Tile coverTile; // reference to the cover tile
+    public UnityEngine.Tilemaps.Tile coverTile; // reference to the cover tile
     public int specialAbilityUses = 3; // number of times the special ability can be used
     public bool gameOver = false; // flag to check if the game is over
     public Color highlightColor = Color.yellow; // color to use for highlighting

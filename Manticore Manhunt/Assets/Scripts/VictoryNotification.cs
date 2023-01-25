@@ -1,19 +1,26 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+using System.Collections.Generic;
+using System.Linq;
 
 public class VictoryNotification : MonoBehaviour
 {
     public GameObject victoryPanel;
     public TMP_Text victoryText;
     public int collectiblesNeeded = 3;
-    private int collectiblesCollected = 0;
-
-    public void CollectCollectible()
+    private List<Vector2Int> collectiblesCollected = new();
+    public void UncollectCollectible(Vector2Int coord)
     {
-        collectiblesCollected++;
-        if (collectiblesCollected >= collectiblesNeeded)
+        collectiblesCollected.Remove(coord);
+    }
+
+    public bool Won => collectiblesCollected.Distinct().Count() >= collectiblesNeeded;
+
+    public void CollectCollectible(Vector2Int coord)
+    {
+        collectiblesCollected.Add(coord);
+        if (Won)
         {
             ShowVictory();
         }
