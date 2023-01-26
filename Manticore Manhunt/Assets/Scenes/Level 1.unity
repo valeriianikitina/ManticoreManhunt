@@ -1919,10 +1919,14 @@ MonoBehaviour:
 
     [Left-click] to move Coyote
 
-    [R]
-    to restart
+    [Tab]
+    to change the path of Coyote
 
-    [Esc] to exit'
+    [R] to restart
+
+    [Esc] to exit
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -6261,8 +6265,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -113, y: -53.54}
-  m_SizeDelta: {x: 200, y: 74.271}
+  m_AnchoredPosition: {x: -113, y: -63.565}
+  m_SizeDelta: {x: 200, y: 94.321}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2108737662
 MonoBehaviour:
